@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our VA Services</title>
+    <link href="../src/assets/css/output.css" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="/path-to-your-favicon.png" />
+  </head>
+  <body class="flex flex-col min-h-screen bg-gray-100">
+    <div id="navbar"></div>
+    <!-- Navbar placeholder -->
+
+    <!-- Place the div where you want the inline chatbot to appear -->
+    <div id="chat_form"></div>
+
+    <!-- Hero Section -->
+    <section class="hero bg-blue-500 text-white text-center p-20">
+      <h1 class="text-5xl font-bold mb-4">Our Virtual Assistant Services</h1>
+      <p>
+        Discover tailored VA solutions, whether for ongoing managed support or
+        direct hire needs.
+      </p>
+    </section>
+
+    <!-- Video for VA's Applying -->
+    <section class="flex justify-center my-8">
+      <div class="w-full max-w-4xl px-4">
+        <div style="position: relative; overflow: hidden; padding-top: 56.25%">
+          <iframe
+            src="https://www.youtube.com/embed/mGK9ignJpek"
+            title="Video Title"
+            frameborder="0"
+            style="
+              position: absolute;
+              top: 0;
+              left: 0;
+              bottom: 0;
+              right: 0;
+              width: 100%;
+              height: 100%;
+            "
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+            alt="Video for VA's Applying"
+            rel="noopener noreferrer"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Categories -->
+    <div class="container mx-auto px-4 py-8">
+      <div class="grid md:grid-cols-2 gap-6 mb-8">
+        <!-- Managed VA's Category -->
+        <div class="category bg-white shadow rounded-lg p-6">
+          <h2 class="text-2xl font-bold mb-2">Managed VA Services</h2>
+          <p class="text-gray-700 mb-4">
+            Comprehensive support and project management with our expertly
+            managed VA teams, tailored to your business needs.
+          </p>
+          <a href="#managed" class="text-blue-500 hover:text-blue-600"
+            >Explore Managed Services</a
+          >
+        </div>
+
+        <!-- Direct Hire VA's Category -->
+        <div class="category bg-white shadow rounded-lg p-6">
+          <h2 class="text-2xl font-bold mb-2">Direct Hire VA's</h2>
+          <p class="text-gray-700 mb-4">
+            Connect with individual VAs for direct engagement, perfect for
+            businesses looking for specialized skills or long-term support.
+          </p>
+          <a href="#directHire" class="text-blue-500 hover:text-blue-600"
+            >Explore Direct Hire Options</a
+          >
+        </div>
+      </div>
+
+      <!-- Highlighted VA Services -->
+      <section id="servicesHighlight">
+        <h2 class="text-3xl font-bold mb-4">Types of VA Services We Offer</h2>
+        <div class="grid md:grid-cols-3 gap-6">
+          <!-- Sample Service Cards -->
+          <div class="bg-white shadow rounded-lg p-6">
+            <h3 class="text-xl font-bold mb-2">Executive VA</h3>
+            <p class="text-gray-700 mb-4">
+              Executive support including scheduling, email management, and
+              more.
+            </p>
+            <a href="#" class="text-blue-500 hover:text-blue-600">Learn More</a>
+          </div>
+          <div class="bg-white shadow rounded-lg p-6">
+            <h3 class="text-xl font-bold mb-2">Creative VA</h3>
+            <p class="text-gray-700 mb-4">
+              Content creation, graphic design, and social media management.
+            </p>
+            <a href="#" class="text-blue-500 hover:text-blue-600">Learn More</a>
+          </div>
+          <div class="bg-white shadow rounded-lg p-6">
+            <h3 class="text-xl font-bold mb-2">Administrative VA</h3>
+            <p class="text-gray-700 mb-4">
+              General administrative tasks, including data entry, research, and
+              booking travel.
+            </p>
+            <a href="#" class="text-blue-500 hover:text-blue-600">Learn More</a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Dynamically loaded navbar & footer script -->
+    <script src="../src/assets/js/navbar.js"></script>
+    <script src="../src/assets/js/footer.js"></script>
+    <script
+      src="https://app.aminos.ai/js/chat_form_plugin.js"
+      data-bot-id="18080"
+    ></script>
+  </body>
+</html>
