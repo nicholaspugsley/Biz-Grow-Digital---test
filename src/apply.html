@@ -174,9 +174,10 @@
             return response.text(); // Expecting a text response now
           })
           .then((text) => {
-            // Process and display the response
             console.log("Success:", text);
-            document.getElementById("formResponse").innerHTML = text; // Display the text response
+            // Redirect user upon successful form submission and good response
+            window.location.href =
+              "https://docs.google.com/forms/d/e/1FAIpQLSdyRP9IB3ekPRNrWeDihRkbU9t-RrUgCDUZPGQR6Dza2Z83_A/viewform";
           })
           .catch((error) => {
             console.error("Error:", error);
