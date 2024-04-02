@@ -16,6 +16,8 @@ document.addEventListener("DOMContentLoaded", () => {
             <a href="apply.html" class="hover:underline">Apply</a>
             <a href="services.html" class="hover:underline">Services</a>
             <a href="faq.html" class="hover:underline">FAQ</a>
+            <a href="contact.html" class="hover:underline">Contact</a>
+            <a href="" class="hover:underline"></a>
           </div>
           
         </div>
@@ -23,8 +25,8 @@ document.addEventListener("DOMContentLoaded", () => {
           © ${currentYear} Biz Grow Digital. All rights reserved.
         </div>
         <div class="space-x-4 md:mt-0 mt-4">
-            <a href="./../pages/faq.html" class="hover:underline">Privacy Policy</a>
-            <a href="./../pages/blog.html" class="hover:underline">Terms of Service</a>
+            <a href="privacy.html" class="hover:underline">Privacy Policy</a>
+            <a href="terms.html" class="hover:underline">Terms of Service</a>
           </div>
       </footer>
     `;

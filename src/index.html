@@ -7,15 +7,15 @@
     <link href="./assets/css/output.css" rel="stylesheet" />
     <link rel="icon" type="image/png" href="/path-to-your-favicon.png" />
   </head>
-  <body class="flex flex-col min-h-screen">
+  <body class="flex flex-col min-h-screen bg-gray-100">
     <div class="flex-grow">
       <div id="navbar"></div>
-      <!-- Navbar placeholder -->
-
       <!-- Hero Section -->
-      <section class="hero bg-blue-500 text-white text-center p-20">
-        <h1 class="text-5xl font-bold mb-4">Find Your Perfect VA Today</h1>
-        <p class="text-xl mb-8">
+      <section class="hero bg-blue-500 text-white text-center py-20 px-4">
+        <h1 class="text-4xl lg:text-5xl font-bold mb-4">
+          Find Your Perfect VA Today
+        </h1>
+        <p class="text-lg lg:text-xl mb-8">
           Connect with skilled virtual assistants and elevate your business
           operations.
         </p>
@@ -27,20 +27,98 @@
       </section>
 
       <!-- Main Content Area -->
-      <main class="p-8">
+      <main class="text-center px-4 lg:px-8">
         <section class="introduction my-8">
-          <h2 class="text-3xl font-bold mb-4">Why Choose Us?</h2>
+          <h2 class="text-2xl lg:text-3xl font-bold mb-4">Why Choose Us?</h2>
           <p>
             We provide a hassle-free way to enhance your productivity by
             connecting you with professional virtual assistants tailored to meet
             your business needs.
           </p>
+          <!-- Introduction Video -->
+          <div class="video mt-8 mx-auto" style="max-width: 560px">
+            <iframe
+              width="560"
+              height="315"
+              src="YOUR_VIDEO_EMBED_URL"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
         </section>
-        <!-- More content sections -->
+
+        <!-- Services Snapshot -->
+        <section class="services-snapshot my-8 text-center">
+          <h2 class="text-2xl lg:text-3xl font-bold mb-6">Our Services</h2>
+          <div
+            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 justify-center mx-auto px-4"
+          >
+            <div class="service bg-white rounded-lg shadow px-6 py-8">
+              <h3 class="text-xl font-bold mb-4">Administrative Assistance</h3>
+              <p>Handle your administrative tasks with ease.</p>
+            </div>
+            <!-- Example for another service -->
+            <div class="service bg-white rounded-lg shadow px-6 py-8">
+              <h3 class="text-xl font-bold mb-4">Digital Marketing</h3>
+              <p>Boost your online presence and engagement.</p>
+            </div>
+            <!-- Example for another service -->
+            <div class="service bg-white rounded-lg shadow px-6 py-8">
+              <h3 class="text-xl font-bold mb-4">Content Creation</h3>
+              <p>High-quality content for blogs, websites, and social media.</p>
+            </div>
+            <!-- Add more services as needed -->
+          </div>
+          <a
+            href="./services.html"
+            class="mt-8 inline-block bg-blue-500 text-white px-8 py-3 rounded hover:bg-blue-700 transition-colors"
+            >Browse All Services</a
+          >
+        </section>
+
+        <!-- How It Works -->
+        <section class="how-it-works my-8">
+          <h2 class="text-2xl lg:text-3xl font-bold mb-4">How It Works</h2>
+          <ol class="list-decimal list-inside">
+            <li>Submit your requirements through our website.</li>
+            <li>We match you with a virtual assistant that fits your needs.</li>
+            <li>
+              Start working with your new VA with our support at every step.
+            </li>
+          </ol>
+        </section>
+
+        <!-- Testimonials/Trust Signals -->
+        <section class="testimonials my-8">
+          <h2 class="text-2xl lg:text-3xl font-bold mb-4">
+            What Our Clients Say
+          </h2>
+          <div class="testimonial mx-auto" style="max-width: 800px">
+            <blockquote>
+              "The virtual assistant they matched me with has been a
+              game-changer for my business."
+            </blockquote>
+            <p class="author">- John Doe, CEO of Example Co.</p>
+          </div>
+          <!-- Add more testimonials as needed -->
+        </section>
+
+        <!-- CTA to Book Consultation or Browse Services -->
+        <section class="cta my-8">
+          <h2 class="text-2xl lg:text-3xl font-bold mb-4">
+            Ready to Get Started?
+          </h2>
+          <a
+            href="./consultation.html"
+            class="bg-blue-500 text-white px-8 py-4 rounded hover:bg-blue-600 transition-colors"
+            >Book a Free Consultation</a
+          >
+        </section>
       </main>
     </div>
 
-    <!-- Dynamically loaded navbar & footer script -->
+    <!-- Navbar & Footer Scripts -->
     <script src="./assets/js/navbar.js"></script>
     <script src="./assets/js/footer.js"></script>
   </body>

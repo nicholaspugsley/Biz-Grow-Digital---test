@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
                   <a href="apply.html" class="py-5 px-3 text-gray-700 hover:text-gray-900">Careers</a>
                   <a href="faq.html" class="py-5 px-3 text-gray-700 hover:text-gray-900">FAQ</a>
                   <!-- Adjusted paths for simplicity -->
-                  <a href="booking.html" class="py-2 px-4 bg-blue-500 text-white rounded hover:bg-blue-600 transition duration-300">Booking</a>
+                  <a href="booking.html" class="py-2 px-4 bg-blue-500 text-white rounded hover:bg-blue-600 transition duration-300">Get Started</a>
                 </div>
                 <!-- Mobile menu button -->
                 <div class="md:hidden flex items-center">
